@@ -1,0 +1,27 @@
+libvf:
+  attributes: 0
+  version:
+    major: 1
+    minor: 0
+  main:
+    start: module_start
+    stop: module_stop
+  libraries:
+    vile:
+      syscall: true
+      functions:
+        - libvf_start
+        - libvf_stop
+        - libvf_has_ftdi
+        - libvf_set_baudrate
+        - libvf_set_line_property
+        - libvf_write_data
+        - libvf_read_data
+        - libvf_tciflush
+        - libvf_tcoflush
+        - libvf_tcioflush
+        - libvf_setflowctrl
+        - libvf_setflowctrl_xonxoff
+        - libvf_setdtr_rts
+        - libvf_setdtr
+        - libvf_setrts
