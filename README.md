@@ -4,7 +4,7 @@ PSVita kernel module and sample for communicating via serial protocol through FT
 
 ## Building
 
-* Install vitausb from https://github.com/isage/vita-packages-extra
+* Install [vitasdk](https://vitasdk.org)
 * `mkdir build && cmake -DCMAKE_BUILD_TYPE=Release .. && make install`
 * Add libvf.skprk under `*KERNEL` in tai config
 
